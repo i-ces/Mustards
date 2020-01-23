@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="current.css">
+</head>
+<body>
+<h1>Fill up the form :</h1><br>
+
+<form action="upload_file.html" method="post">
+<input type="file" name="file" id="file"><br>
+
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm"></form><br>
+
+<label id="name"> Name :</label><br>
+<input type="text" id="info" required placeholder="Enter your Name."> <br>
+
+<label id="dob">Date Of Birth :</label><br>
+<input type="date" id="db " required><br>
+
+<label id="gender"> Gender :</label><br>&ensp; 
+<input type="radio" name="gender" value="male"> Male &ensp;
+<input type="radio" name="gender" value="female"> Female &ensp;
+<input type="radio" name="gender" value="other">  Other
+<br>
+<br>
+<label id="phone">Phone number :</label><br>
+<input type="number" id="phonenumber" placeholder="Enter your Phone Number."><br> 
+
+ <label id="peradd">Permanent Address :</label><br>
+<input type="text3" id="address1" placeholder="Enter your Permanent Address."> <br>
+
+<label id="temadd">Temporary Address :</label><br>
+<input type="text3" id="address2" placeholder="Enter your Temporary Address."> <br>
+
+<label id="email">Email Id :</label><br>
+<input type="email" id="emailaddress" placeholder="Enter your Email."> <br>
+
+<label id="blood">Blood Group :</label><br>
+<input type="radio" name="bloodgroup" value="A +ve"> A +ve  &ensp;
+<input type="radio" name="bloodgroup" value="A -ve"> A -ve &ensp;
+<input type="radio" name="bloodgroup" value="B +ve"> B +ve &ensp;
+<input type="radio" name="bloodgroup" value="B -ve"> B -ve &ensp;
+<input type="radio" name="bloodgroup" value="AB +ve"> AB +ve &ensp;
+<input type="radio" name="bloodgroup" value="AB -ve"> AB -ve &ensp;
+<input type="radio" name="bloodgroup" value="O +ve"> O +ve &ensp;
+<input type="radio" name="bloodgroup" value="O -ve"> O -ve &ensp;
+<br>
+<br>
+
+<button id="submit">Submit</button>
+
+</form>
+<script src="current.js"></script>
+
+</body>
+</html>

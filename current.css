@@ -1,0 +1,120 @@
+body{
+    background-color: ;
+
+}
+h1{
+    color: black;
+    padding: 10px;
+    margin-top: -20px;
+    font-size: 40px;
+    text-align: left;
+}
+input[type="file"]{
+    
+}
+#name{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#dob{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="date"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#gender{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+#phone{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="number"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#peradd{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text2"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#temadd{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text3"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#email{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="email"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#blood{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid steelblue;
+}
+#submit{
+    border: none;
+    outline: none;
+    background-color: black;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
