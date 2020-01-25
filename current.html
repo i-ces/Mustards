@@ -51,7 +51,29 @@
 <button id="submit">Submit</button>
 
 </form>
-<script src="checkerror.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAn-UCPutjm9yRf90ajTRADeLh73wDx3xM",
+    authDomain: "digital-id-eafe2.firebaseapp.com",
+    databaseURL: "https://digital-id-eafe2.firebaseio.com",
+    projectId: "digital-id-eafe2",
+    storageBucket: "digital-id-eafe2.appspot.com",
+    messagingSenderId: "1063676812163",
+    appId: "1:1063676812163:web:ffb643c0b5b565f4c8b4b6",
+    measurementId: "G-HQKW9VJFZR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="firebase.js"></script>
 
 </body>
 </html>

@@ -53,11 +53,11 @@ document.getElementById('submit').addEventListener('click',()=>{
     console.log(dataStorage);
 
     //Setting everything to new one
-    /*document.getElementById('info').value='';
+    document.getElementById('info').value='';
     document.getElementById('phonenumber').value='';
     document.getElementById('address1').value='';
     document.getElementById('address2').value='';
-    document.getElementById('email').value='';*/
+    document.getElementById('email').value='';
     }
     });
     
